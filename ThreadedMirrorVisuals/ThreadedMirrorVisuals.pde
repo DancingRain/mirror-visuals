@@ -101,7 +101,7 @@ void setup()
   saveBytes("mirror5.dat", dMapFile);
   */
   
-  dMapFile = loadBytes("mirror5.dat");
+  dMapFile = loadBytes("mirror5.dat"); //There are other sample delta maps in the folder. Try them!
   if (dMapFile == null)
   {
     println("Oh shoot. Can't load the delta map!");
